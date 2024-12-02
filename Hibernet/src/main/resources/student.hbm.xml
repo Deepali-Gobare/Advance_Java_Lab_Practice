@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hibernate-mapping>
+<class name="com.demo.beans.Student" table="studtab">
+<id name="sid">
+<generator class="assigned"/>
+</id>
+<property name="sname" type="string" not-null="true"/>
+<property name="mobile" type="string" column="mobno"/>
+<property name="marks" type="float"/>
+</class>
+</hibernate-mapping>
